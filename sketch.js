@@ -58,6 +58,7 @@ background("lightgreen");
   
     
   }
+  textSize=20
   
   spawnBanana();
   spawnObstacle();
@@ -89,7 +90,6 @@ function spawnObstacle() {
     obstacle.scale = 0.15;
     obstacle.velocityX = -5;
     obstacle.setCollider("circle",0,0,70)
-    obstacle.debug=true
      //assign lifetime to the variable
     obstacle.lifetime = 500;
     

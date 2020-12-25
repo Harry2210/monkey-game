@@ -54,7 +54,7 @@ background("lightgreen");
     obstacleGroup.setVelocityXEach(0);
     foodGroup.setVelocityXEach(0);
     monkey.velocityY=0
-    text("Gameover",300,100)
+    text("gameover",300,100)
   
     
   }
@@ -88,8 +88,8 @@ function spawnObstacle() {
     obstacle.addImage(obstacleImage);
     obstacle.scale = 0.15;
     obstacle.velocityX = -5;
-    obstacle.setCollider("circle",0,0,90)
-    
+    obstacle.setCollider("circle",0,0,70)
+    obstacle.debug=true
      //assign lifetime to the variable
     obstacle.lifetime = 500;
     

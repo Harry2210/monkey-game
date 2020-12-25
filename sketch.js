@@ -54,6 +54,7 @@ background("lightgreen");
     obstacleGroup.setVelocityXEach(0);
     foodGroup.setVelocityXEach(0);
     monkey.velocityY=0
+    text("Gameover",300,100)
   
     
   }

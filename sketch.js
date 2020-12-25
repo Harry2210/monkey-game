@@ -87,7 +87,7 @@ function spawnObstacle() {
     obstacle.addImage(obstacleImage);
     obstacle.scale = 0.15;
     obstacle.velocityX = -5;
-    obstacle.setCollider("circle",0,0,190)
+    obstacle.setCollider("circle",0,0,90)
     
      //assign lifetime to the variable
     obstacle.lifetime = 500;

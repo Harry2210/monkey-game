@@ -54,11 +54,12 @@ background("lightgreen");
     obstacleGroup.setVelocityXEach(0);
     foodGroup.setVelocityXEach(0);
     monkey.velocityY=0
+     textSize(20);
     text("gameover",300,100)
   
     
   }
-  textSize=20
+ 
   
   spawnBanana();
   spawnObstacle();
